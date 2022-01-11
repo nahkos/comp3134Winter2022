@@ -1,0 +1,35 @@
+1) What is the definition of server port?
+The answer is: Web server ports are the logical endpoints of a network connection that is used to exchange information between a web server and a web client. These ports are assigned a unique number to identify them separately. Port 80 and 443 are the two standard ports used by web servers to communicate with the web clients.
+
+2) What is server port range?
+The answer is: Port numbers are divided into ranges as follows:
+
+Port numbers 0-1023 – Well known ports. These are allocated to server services by the Internet Assigned Numbers Authority (IANA). e.g Web servers normally use port 80 and SMTP servers use port 25.
+
+Ports 1024-49151- Registered Port -These can be registered for services with the IANA and should be treated as semi-reserved. User written programs should not use these ports.
+
+Ports 49152-65535– These are used by client programs and you are free to use these in client programs. When a Web browser connects to a web server the browser will allocate itself a port in this range. Also known as ephemeral ports.
+
+3) How many bits does number above represent?
+The answer is: A port number uses 16 bits and so can therefore have a value from 0 to 65535 decimal
+
+4) State 10 common server ports
+The answer is: The Internet Assigned Numbers Authority (IANA) has assigned port numbers to commonly used services like SSH, FTP, HTTP, HTTPS, and others. Here are some of the most common ones:
+
+Port Number	Usage
+
+20		File Transfer Protocol (FTP) Data Transfer
+21		File Transfer Protocol (FTP) Command Control
+22		Secure Shell (SSH)
+23		Telnet - Remote login service, unencrypted text messages
+25		Simple Mail Transfer Protocol (SMTP) E-mail Routing
+53		Domain Name System (DNS) service
+80		Hypertext Transfer Protocol (HTTP) used in World Wide Web
+110		Post Office Protocol (POP3) used by e-mail clients to retrieve e-mail from a server
+119		Network News Transfer Protocol (NNTP)
+123		Network Time Protocol (NTP)
+143		Internet Message Access Protocol (IMAP) Management of Digital Mail
+161		Simple Network Management Protocol (SNMP)
+194		Internet Relay Chat (IRC)
+443		HTTP Secure (HTTPS) HTTP over TLS/SSL
+
