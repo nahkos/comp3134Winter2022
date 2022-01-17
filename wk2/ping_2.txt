@@ -1,0 +1,18 @@
+Droplet Server Test
+Log into your local machine (your desktop or laptop)
+Open Command Prompt, Terminal or GitBash (depending on Operating System)
+Determine if your Droplet server is up from your local machine
+
+**************************************************
+C:\Users\shhzi>ping www.microsoft.com
+
+Pinging e13678.dscb.akamaiedge.net [104.123.194.9] with 32 bytes of data:
+Reply from 104.123.194.9: bytes=32 time=5ms TTL=58
+Reply from 104.123.194.9: bytes=32 time=5ms TTL=58
+Reply from 104.123.194.9: bytes=32 time=5ms TTL=58
+Reply from 104.123.194.9: bytes=32 time=4ms TTL=58
+
+Ping statistics for 104.123.194.9:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 4ms, Maximum = 5ms, Average = 4ms

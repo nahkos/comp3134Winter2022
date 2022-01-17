@@ -1,0 +1,15 @@
+E. Path to Destination
+Traceroute is command to displaying the route and measuring transit delays of packets
+across an Internet Protocol network.
+Use it to determine how you get form your host to destination host
+
+****************************************
+root@nahkos-COMP3134-47984:~# traceroute google.com
+traceroute to google.com (142.251.32.78), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  10.78.5.93 (10.78.5.93)  1.148 ms  1.132 ms 10.78.5.127 (10.78.5.127)  0.989 ms
+ 3  138.197.249.86 (138.197.249.86)  1.106 ms  1.092 ms 138.197.249.78 (138.197.249.78)  1.184 ms
+ 4  162.243.190.33 (162.243.190.33)  1.583 ms 72.14.219.10 (72.14.219.10)  1.570 ms  1.551 ms
+ 5  74.125.244.161 (74.125.244.161)  1.687 ms  1.663 ms 74.125.244.145 (74.125.244.145)  2.637 ms
+ 6  142.251.68.25 (142.251.68.25)  1.858 ms  0.867 ms  0.864 ms
+ 7  yyz12s07-in-f14.1e100.net (142.251.32.78)  1.039 ms  1.022 ms  1.006 ms

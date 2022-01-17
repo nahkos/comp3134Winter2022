@@ -1,0 +1,29 @@
+Domain Name Look-Up
+If you would like to get an IP address of a specific host, you can use online services to
+accomplish this task
+Perform a search engine Search with the keyword "get ip of domain"
+Navigate to any online service site
+Perform lookups for 5 distinct domains (cannot include domains from above)
+Create a text file named ipinfo.txt and paste the IP Address and Geolocation data returned
+for all 5 queries 
+
+*************************
+1 amazon.ca
+Internet Protocol Address:54.239.18.172
+Coordinates:Latitude: 39.0481 | Longitude -77.4728
+
+2 digitalocean.com
+Internet Protocol Address:104.16.182.15
+Coordinates:Latitude: 37.7510 | Longitude -97.8220
+
+3 lifewire.com
+Internet Protocol Address:151.101.130.137
+Coordinates:Latitude: 37.7697 | Longitude -122.3933
+
+4 stackoverflow.com
+Internet Protocol Address:151.101.1.69
+Coordinates:Latitude: 37.7697 | Longitude -122.3933
+
+5 quora.com
+Internet Protocol Address:52.203.213.140
+Coordinates:Latitude: 39.0481 | Longitude -77.4728

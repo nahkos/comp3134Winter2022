@@ -1,0 +1,280 @@
+IP Address Look-Up
+If you know a name of an existing domain name, you can use online services to get
+information about its domain-name registration
+Perform a search engine Search with the keyword "whois"
+Navigate to any online service site
+Perform lookups for 5 distinct domains (not sub-domains)
+Create a text file named whois.txt and paste the data returned for all 5 queries 
+
+***************************
+IP Address Look-Up
+1. google.com
+
+Domain Name: google.com
+Registry Domain ID: 2138514_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2019-09-09T15:39:04+0000
+Creation Date: 1997-09-15T07:00:00+0000
+Registrar Registration Expiration Date: 2028-09-13T07:00:00+0000
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+Registrar Abuse Contact Phone: +1.2083895770
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+Registrant Organization: Google LLC
+Registrant State/Province: CA
+Registrant Country: US
+Registrant Email: Select Request Email Form at https://domains.markmonitor.com/whois/google.com
+Admin Organization: Google LLC
+Admin State/Province: CA
+Admin Country: US
+Admin Email: Select Request Email Form at https://domains.markmonitor.com/whois/google.com
+Tech Organization: Google LLC
+Tech State/Province: CA
+Tech Country: US
+Tech Email: Select Request Email Form at https://domains.markmonitor.com/whois/google.com
+Name Server: ns4.google.com
+Name Server: ns1.google.com
+Name Server: ns3.google.com
+Name Server: ns2.google.com
+DNSSEC: unsigned
+
+***************************
+2. youtube.com
+
+Domain Name: youtube.com
+Registry Domain ID: 142504053_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2022-01-14T09:38:42+0000
+Creation Date: 2005-02-15T05:13:12+0000
+Registrar Registration Expiration Date: 2023-02-15T00:00:00+0000
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+Registrar Abuse Contact Phone: +1.2083895770
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+Registrant Organization: Google LLC
+Registrant State/Province: CA
+Registrant Country: US
+Registrant Email: Select Request Email Form at https://domains.markmonitor.com/whois/youtube.com
+Admin Organization: Google LLC
+Admin State/Province: CA
+Admin Country: US
+Admin Email: Select Request Email Form at https://domains.markmonitor.com/whois/youtube.com
+Tech Organization: Google LLC
+Tech State/Province: CA
+Tech Country: US
+Tech Email: Select Request Email Form at https://domains.markmonitor.com/whois/youtube.com
+Name Server: ns2.google.com
+Name Server: ns1.google.com
+Name Server: ns3.google.com
+Name Server: ns4.google.com
+
+***************************
+3. yahoo.ca
+
+Domain Name: yahoo.ca
+Registry Domain ID: D670225-CIRA
+Registrar WHOIS Server: whois.ca.fury.ca
+Registrar URL: Markmonitor.com
+Updated Date: 2021-11-10T20:44:58Z
+Creation Date: 2000-10-04T00:08:36Z
+Registry Expiry Date: 2022-09-21T04:00:00Z
+Registrar: MarkMonitor International Canada Ltd.
+Registrar IANA ID: not applicable
+Registrar Abuse Contact Email:
+Registrar Abuse Contact Phone:
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+Registry Registrant ID: 101354856-CIRA
+Registrant Name: Yahoo Canada Corp.
+Registrant Organization:
+Registrant Street: 99 Spadina Ave., Suite 200 & 300
+Registrant City: Toronto
+Registrant State/Province: ON
+Registrant Postal Code: M5V3P8
+Registrant Country: CA
+Registrant Phone: +1.4162638100
+Registrant Phone Ext:
+Registrant Fax: +1.4162638100
+Registrant Fax Ext:
+Registrant Email: domainip@yahooinc.com
+Registry Admin ID: 101355413-CIRA
+Admin Name: Andres Lorca
+Admin Organization: Yahoo Canada Corp.
+Admin Street: 99 Spadina Ave., Suite 200 & 300
+Admin City: Toronto
+Admin State/Province: ON
+Admin Postal Code: M5V3P8
+Admin Country: CA
+Admin Phone: +1.4162638100
+Admin Phone Ext:
+Admin Fax: +1.4162638100
+Admin Fax Ext:
+Admin Email: domainip@yahooinc.com
+Registry Tech ID: 101355413-CIRA
+Tech Name: Andres Lorca
+Tech Organization: Yahoo Canada Corp.
+Tech Street: 99 Spadina Ave., Suite 200 & 300
+Tech City: Toronto
+Tech State/Province: ON
+Tech Postal Code: M5V3P8
+Tech Country: CA
+Tech Phone: +1.4162638100
+Tech Phone Ext:
+Tech Fax: +1.4162638100
+Tech Fax Ext:
+Tech Email: domainip@yahooinc.com
+Registry Billing ID: 73886904-CIRA
+Billing Name: CCOPS Billing
+Billing Organization: MarkMonitor Inc.
+Billing Street: 3540 East Longwing Lane, Suite 300
+Billing City: Meridian
+Billing State/Province: ID
+Billing Postal Code: 83646
+Billing Country: US
+Billing Phone: +1.2083895740
+Billing Phone Ext:
+Billing Fax: +1.2083895771
+Billing Fax Ext:
+Billing Email: ccopsbilling@markmonitor.com
+Name Server: ns1.yahoo.com
+Name Server: ns2.yahoo.com
+Name Server: ns3.yahoo.com
+Name Server: ns5.yahoo.com
+Name Server: ns7.yahoo.com
+DNSSEC: unsigned
+
+***************************
+4. hostinger.com
+
+Domain Name: HOSTINGER.COM
+Registry Domain ID: 92496457_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.hostinger.com
+Registrar URL: https://www.hostinger.com
+Updated Date: 2021-12-03T07:19:46Z
+Creation Date: 2002-11-23T09:59:56Z
+Registrar Registration Expiration Date: 2031-11-23T09:59:56Z
+Registrar: Hostinger, UAB
+Registrar IANA ID: 1636
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Registry Registrant ID: GDPR Masked
+Registrant Name: GDPR Masked
+Registrant Organization: GDPR Masked
+Registrant Street: GDPR Masked
+Registrant City: GDPR Masked
+Registrant State/Province: Larnaka
+Registrant Postal Code: GDPR Masked
+Registrant Country: CY
+Registrant Phone: GDPR Masked
+Registrant Phone Ext:
+Registrant Fax: GDPR Masked
+Registrant Fax Ext:
+Registrant Email: gdpr-masking@gdpr-masked.com
+Registry Admin ID: GDPR Masked
+Admin Name: GDPR Masked
+Admin Organization: GDPR Masked
+Admin Street: GDPR Masked
+Admin City: GDPR Masked
+Admin State/Province: GDPR Masked
+Admin Postal Code: GDPR Masked
+Admin Country: GDPR Masked
+Admin Phone: GDPR Masked
+Admin Phone Ext:
+Admin Fax: GDPR Masked
+Admin Fax Ext:
+Admin Email: gdpr-masking@gdpr-masked.com
+Registry Tech ID: GDPR Masked
+Tech Name: GDPR Masked
+Tech Organization: GDPR Masked
+Tech Street: GDPR Masked
+Tech City: GDPR Masked
+Tech State/Province: GDPR Masked
+Tech Postal Code: GDPR Masked
+Tech Country: GDPR Masked
+Tech Phone: GDPR Masked
+Tech Phone Ext:
+Tech Fax: GDPR Masked
+Tech Fax Ext:
+Tech Email: gdpr-masking@gdpr-masked.com
+Name Server: any1.hostinger.com
+Name Server: any2.hostinger.com
+DNSSEC: Unsigned
+Registrar Abuse Contact Email: abuse@hostinger.com
+Registrar Abuse Contact Phone: +37064503378
+
+***************************
+5. blackboard.com
+
+Domain Name: blackboard.com
+Registry Domain ID: 5134775_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.corporatedomains.com
+Registrar URL: www.cscprotectsbrands.com
+Updated Date: 2021-10-20T16:27:51Z
+Creation Date: 1999-04-09T00:00:00Z
+Registrar Registration Expiration Date: 2023-07-15T17:53:20Z
+Registrar: CSC CORPORATE DOMAINS, INC.
+Sponsoring Registrar IANA ID: 299
+Registrar Abuse Contact Email: domainabuse@cscglobal.com
+Registrar Abuse Contact Phone: +1.8887802723
+Domain Status: clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
+Domain Status: serverDeleteProhibited http://www.icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited http://www.icann.org/epp#serverTransferProhibited
+Registry Registrant ID:
+Registrant Name: Domain Administrator
+Registrant Organization: Blackboard Inc.
+Registrant Street: 1111 19th Street NW
+Registrant City: Washington
+Registrant State/Province: DC
+Registrant Postal Code: 20036
+Registrant Country: US
+Registrant Phone: +1.2024634860
+Registrant Phone Ext:
+Registrant Fax: +1.2024634860
+Registrant Fax Ext:
+Registrant Email: dnstech@blackboard.com
+Registry Admin ID:
+Admin Name: Domain Administrator
+Admin Organization: Blackboard Inc.
+Admin Street: 1111 19th Street NW
+Admin City: Washington
+Admin State/Province: DC
+Admin Postal Code: 20036
+Admin Country: US
+Admin Phone: +1.2024634860
+Admin Phone Ext:
+Admin Fax: +1.2024634860
+Admin Fax Ext:
+Admin Email: dnstech@blackboard.com
+Registry Tech ID:
+Tech Name: Domain Administrator
+Tech Organization: Blackboard Inc.
+Tech Street: 1111 19th Street NW
+Tech City: Washington
+Tech State/Province: DC
+Tech Postal Code: 20036
+Tech Country: US
+Tech Phone: +1.2024634860
+Tech Phone Ext:
+Tech Fax: +1.2024634860
+Tech Fax Ext:
+Tech Email: dnstech@blackboard.com
+Name Server: ns3.blackboard.com
+Name Server: ns2.blackboard.com
+DNSSEC: unsigned

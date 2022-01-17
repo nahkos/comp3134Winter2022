@@ -1,0 +1,63 @@
+F. NMAP
+Nmap is a powerful network discovery and security auditing utility that is free, open-source,
+and easy to install. Nmap scans for vulnerabilities on your network, performs inventory checks,
+and monitors host or service uptime, alongside many other useful features.
+
+******************************************************
+To use Nmap to scan 1000 TCP ports, type the following command. Use various host names
+
+root@nahkos-COMP3134-47984:~# nmap yahoo.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-17 14:42 UTC
+Nmap scan report for yahoo.ca (98.136.103.23)
+Host is up (0.062s latency).
+Other addresses for yahoo.ca (not scanned): 74.6.136.150 212.82.100.150
+rDNS record for 98.136.103.23: w2.src.vip.gq1.yahoo.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 6.01 seconds
+
+******************************************************
+To scan a single Port
+
+root@nahkos-COMP3134-47984:~# nmap -p 8080 amazon.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-17 14:43 UTC
+Nmap scan report for amazon.ca (54.239.19.238)
+Host is up (0.031s latency).
+Other addresses for amazon.ca (not scanned): 54.239.18.172 52.94.225.242
+
+PORT     STATE  SERVICE
+8080/tcp closed http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 0.29 seconds
+
+******************************************************
+To scan a range of ports
+
+root@nahkos-COMP3134-47984:~# nmap -p 1023 8080 bell.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-17 14:45 UTC
+Nmap scan report for bell.ca (184.150.212.98)
+Host is up (0.0030s latency).
+Other addresses for bell.ca (not scanned): 206.47.98.98
+
+PORT     STATE    SERVICE
+1023/tcp filtered netvenuechat
+
+Nmap done: 2 IP addresses (1 host up) scanned in 1.59 seconds
+
+******************************************************
+To scan 100 most common ports (Fast)
+root@nahkos-COMP3134-47984:~# nmap -F www.lifewire.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-17 14:46 UTC
+Nmap scan report for www.lifewire.com (151.101.126.137)
+Host is up (0.0011s latency).
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 3.74 seconds
+
+
