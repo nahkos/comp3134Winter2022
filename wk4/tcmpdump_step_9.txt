@@ -1,0 +1,29 @@
+root@nahkos-COMP3134-47984:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+23:54:36.490173 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 1337744611:1337744799, ack 2055626072, win 501, length 188
+23:54:36.524931 IP 216-154-16-220.cpe.teksavvy.com.60119 > nahkos-COMP3134-47984.ssh: Flags [.], ack 0, win 511, length 0
+23:54:36.525009 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 188:384, ack 1, win 501, length 196
+23:54:36.572213 IP 216-154-16-220.cpe.teksavvy.com.60119 > nahkos-COMP3134-47984.ssh: Flags [.], ack 384, win 510, length 0
+23:54:36.572287 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 384:684, ack 1, win 501, length 300
+23:54:36.572566 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 684:984, ack 1, win 501, length 300
+23:54:36.572741 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 984:1164, ack 1, win 501, length 180
+23:54:36.622286 IP 216-154-16-220.cpe.teksavvy.com.60119 > nahkos-COMP3134-47984.ssh: Flags [.], ack 1164, win 513, length 0
+23:54:36.622374 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 1164:1344, ack 1, win 501, length 180
+23:54:36.622665 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 1344:1652, ack 1, win 501, length 308
+23:54:36.622804 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 1652:1832, ack 1, win 501, length 180
+23:54:36.673760 IP 216-154-16-220.cpe.teksavvy.com.60119 > nahkos-COMP3134-47984.ssh: Flags [.], ack 1832, win 510, length 0
+23:54:36.673833 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 1832:2012, ack 1, win 501, length 180
+23:54:36.674049 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 2012:2320, ack 1, win 501, length 308
+23:54:36.674140 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 2320:2500, ack 1, win 501, length 180
+23:54:36.715980 IP 216-154-16-220.cpe.teksavvy.com.60119 > nahkos-COMP3134-47984.ssh: Flags [.], ack 2500, win 508, length 0
+23:54:36.716058 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 2500:2680, ack 1, win 501, length 180
+23:54:36.716302 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 2680:2988, ack 1, win 501, length 308
+23:54:36.716387 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 2988:3168, ack 1, win 501, length 180
+23:54:36.716455 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 3168:3348, ack 1, win 501, length 180
+23:54:36.716521 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 3348:3528, ack 1, win 501, length 180
+23:54:36.760951 IP 216-154-16-220.cpe.teksavvy.com.60119 > nahkos-COMP3134-47984.ssh: Flags [.], ack 2988, win 513, length 0
+23:54:36.761022 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 3528:3708, ack 1, win 501, length 180
+23:54:36.761321 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 3708:4016, ack 1, win 501, length 308
+23:54:36.761597 IP 216-154-16-220.cpe.teksavvy.com.60119 > nahkos-COMP3134-47984.ssh: Flags [.], ack 3528, win 511, length 0
+23:54:36.761638 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 4016:4196, ack 1, win 501, length 180

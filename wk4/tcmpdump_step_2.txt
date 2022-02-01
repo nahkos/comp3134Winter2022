@@ -1,0 +1,11 @@
+root@nahkos-COMP3134-47984:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+23:43:40.649772 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 1334919703:1334919891, ack 2055614464, win 501, length 188
+23:43:40.650730 IP nahkos-COMP3134-47984.41423 > 67.207.67.2.domain: 53339+ [1au] PTR? 220.16.154.216.in-addr.arpa. (56)
+23:43:40.650811 IP nahkos-COMP3134-47984.51209 > 67.207.67.2.domain: 693+ [1au] PTR? 220.16.154.216.in-addr.arpa. (56)
+23:43:40.651503 IP nahkos-COMP3134-47984.45925 > 67.207.67.2.domain: 58320+ [1au] PTR? 20.35.122.134.in-addr.arpa. (55)
+23:43:40.651592 IP nahkos-COMP3134-47984.37282 > 67.207.67.2.domain: 53639+ [1au] PTR? 20.35.122.134.in-addr.arpa. (55)
+5 packets captured
+33 packets received by filter
+0 packets dropped by kernel

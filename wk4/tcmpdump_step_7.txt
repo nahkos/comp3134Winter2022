@@ -1,0 +1,10 @@
+root@nahkos-COMP3134-47984:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+23:51:47.622008 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 1337716531:1337716655, ack 2055622164, win 501, length 124
+23:51:47.651329 IP 216-154-16-220.cpe.teksavvy.com.60119 > nahkos-COMP3134-47984.ssh: Flags [.], ack 0, win 508, length 0
+23:51:47.712093 IP 216-154-16-220.cpe.teksavvy.com.60119 > nahkos-COMP3134-47984.ssh: Flags [.], ack 124, win 508, length 0
+23:51:54.528925 IP nahkos-COMP3134-47984.ssh > 112.85.42.227.25352: Flags [F.], seq 1774190405, ack 164129887, win 510, options [nop,nop,TS val 1177990558 ecr 4242670], length 0
+23:51:55.215113 IP nahkos-COMP3134-47984.ssh > 112.85.42.227.25352: Flags [F.], seq 0, ack 1, win 510, options [nop,nop,TS val 1177991245 ecr 4242670], length 0
+23:51:55.919105 IP nahkos-COMP3134-47984.ssh > 112.85.42.227.25352: Flags [F.], seq 0, ack 1, win 510, options [nop,nop,TS val 1177991949 ecr 4242670], length 0
+23:51:57.295104 IP nahkos-COMP3134-47984.ssh > 112.85.42.227.25352: Flags [F.], seq 0, ack 1, win 510, options [nop,nop,TS val 1177993325 ecr 4242670], length 0
+23:52:00.175118 IP nahkos-COMP3134-47984.ssh > 112.85.42.227.25352: Flags [F.], seq 0, ack 1, win 510, options [nop,nop,TS val 1177996205 ecr 4242670], length 0

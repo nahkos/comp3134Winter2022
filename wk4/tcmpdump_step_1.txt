@@ -1,0 +1,34 @@
+root@nahkos-COMP3134-47984:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+23:41:40.167250 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 1334303959:1334304147, ack 2055612796, win 501, length 188
+23:41:40.169483 IP nahkos-COMP3134-47984.55335 > 67.207.67.2.domain: 33630+ [1au] PTR? 220.16.154.216.in-addr.arpa. (56)
+23:41:40.169575 IP nahkos-COMP3134-47984.39511 > 67.207.67.2.domain: 8920+ [1au] PTR? 220.16.154.216.in-addr.arpa. (56)
+23:41:40.169635 IP nahkos-COMP3134-47984.41780 > 67.207.67.2.domain: 32613+ [1au] PTR? 220.16.154.216.in-addr.arpa. (56)
+23:41:40.173524 IP 67.207.67.2.domain > nahkos-COMP3134-47984.39511: 8920 1/0/1 PTR 216-154-16-220.cpe.teksavvy.com. (101)
+23:41:40.173662 IP 67.207.67.2.domain > nahkos-COMP3134-47984.41780: 32613 1/0/1 PTR 216-154-16-220.cpe.teksavvy.com. (101)
+23:41:40.174470 IP nahkos-COMP3134-47984.48819 > 67.207.67.2.domain: 21792+ [1au] PTR? 20.35.122.134.in-addr.arpa. (55)
+23:41:40.174560 IP nahkos-COMP3134-47984.47104 > 67.207.67.2.domain: 55714+ [1au] PTR? 20.35.122.134.in-addr.arpa. (55)
+23:41:40.174610 IP nahkos-COMP3134-47984.33319 > 67.207.67.2.domain: 29421+ [1au] PTR? 20.35.122.134.in-addr.arpa. (55)
+23:41:40.175503 IP 216-154-16-220.cpe.teksavvy.com.60119 > nahkos-COMP3134-47984.ssh: Flags [.], ack 0, win 508, length 0
+23:41:40.178957 IP 67.207.67.2.domain > nahkos-COMP3134-47984.55335: 33630 1/0/1 PTR 216-154-16-220.cpe.teksavvy.com. (101)
+23:41:40.179021 IP nahkos-COMP3134-47984 > 67.207.67.2: ICMP nahkos-COMP3134-47984 udp port 55335 unreachable, length 137
+23:41:40.193469 IP 67.207.67.2.domain > nahkos-COMP3134-47984.47104: 55714 NXDomain 0/1/1 (122)
+23:41:40.193693 IP nahkos-COMP3134-47984.47104 > 67.207.67.2.domain: 55714+ PTR? 20.35.122.134.in-addr.arpa. (44)
+23:41:40.193845 IP 67.207.67.2.domain > nahkos-COMP3134-47984.33319: 29421 NXDomain 0/1/1 (122)
+23:41:40.193993 IP nahkos-COMP3134-47984.33319 > 67.207.67.2.domain: 29421+ PTR? 20.35.122.134.in-addr.arpa. (44)
+23:41:40.194809 IP 67.207.67.2.domain > nahkos-COMP3134-47984.48819: 21792 NXDomain 0/1/1 (122)
+23:41:40.195092 IP nahkos-COMP3134-47984.48819 > 67.207.67.2.domain: 21792+ PTR? 20.35.122.134.in-addr.arpa. (44)
+23:41:40.195191 IP 67.207.67.2.domain > nahkos-COMP3134-47984.33319: 29421 NXDomain 0/1/0 (111)
+23:41:40.195191 IP 67.207.67.2.domain > nahkos-COMP3134-47984.47104: 55714 NXDomain 0/1/0 (111)
+23:41:40.195819 IP 67.207.67.2.domain > nahkos-COMP3134-47984.48819: 21792 NXDomain 0/1/0 (111)
+23:41:40.196685 IP nahkos-COMP3134-47984.ssh > 216-154-16-220.cpe.teksavvy.com.60119: Flags [P.], seq 188:384, ack 1, win 501, length 196
+23:41:40.196919 IP nahkos-COMP3134-47984.51927 > 67.207.67.2.domain: 33751+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+23:41:40.197000 IP nahkos-COMP3134-47984.39509 > 67.207.67.2.domain: 42368+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+23:41:40.197082 IP nahkos-COMP3134-47984.49198 > 67.207.67.2.domain: 22147+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+23:41:40.197157 IP 67.207.67.2.domain > nahkos-COMP3134-47984.51927: 33751 NXDomain 0/1/1 (120)
+23:41:40.197158 IP 67.207.67.2.domain > nahkos-COMP3134-47984.39509: 42368 NXDomain 0/1/1 (120)
+23:41:40.197272 IP 67.207.67.2.domain > nahkos-COMP3134-47984.49198: 22147 NXDomain 0/1/1 (120)
+23:41:40.197284 IP nahkos-COMP3134-47984.51927 > 67.207.67.2.domain: 33751+ PTR? 2.67.207.67.in-addr.arpa. (42)
+23:41:40.197330 IP nahkos-COMP3134-47984.39509 > 67.207.67.2.domain: 42368+ PTR? 2.67.207.67.in-addr.arpa. (42)
+23:41:40.197364 IP nahkos-COMP3134-47984.49198 > 67.207.67.2.domain: 22147+ PTR? 2.67.207.67.in-addr.arpa. (42)
