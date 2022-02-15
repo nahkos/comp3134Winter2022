@@ -1,0 +1,5 @@
+Restart the sshd service:
+sudo systemctl <action> <service-name>
+
+specify the port using the ssh command:
+ssh user@192.168.1.1 -p 26
