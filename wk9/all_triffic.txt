@@ -1,0 +1,2 @@
+ cd /var/www/html         <= to access public droplet instance
+tcpdump -w all_traffic_YYYYMMDD_HHMM.pcap -i eth0 -v     <= write to file 'all_traffic_YYYYMMDD_HHMM.pcap"
