@@ -1,0 +1,8 @@
+Question: What you see on the browser (the issue)
+
+Answer: I see an array of option available
+
+****************************************************
+Question: What sensitive information is given by this page
+
+Answer: I am not really sure what the sensitive information is given by this page are, I suppose it is the option that has been given and the location of each option.

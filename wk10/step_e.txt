@@ -1,0 +1,29 @@
+Question: Should not be able to view files and folders before html directory
+o HINT, Use basename()
+
+Answer: $path=basename(isset($_GET['q']) ? $_GET['q'] : '.');
+
+***************************************
+Question:  Should not attempt to look at folders that do not exists
+o HINT, File_exists()
+
+Answer: print_r(scandir(file_exists($path)));
+
+******************************************************
+Question: BONUS, do not allow user to pass a filename
+o Look for dot in parameter
+
+Answer:  $gets=array_keys($_GET);
+foreach($item in $gets){
+  $check1=explode($item, ".");
+  if(count($check1) <2){
+    //No appended keys recieved
+  }
+
+  else{
+    $key = $check1[0];
+    $apeendedPart= $check1[1];
+  }
+
+ //Do something with these two
+}

